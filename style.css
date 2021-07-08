@@ -306,16 +306,16 @@ width: 100%;
         background-color: #2E323F;
         top: 100%;
         right: -100%;
-        transition: right .6s ease;
+        transition: right .3s ease;
         
     }
     .nav-items{
         display: block;
         margin:0 0 0;   
     }
-    .nav-primary{
+    /* .nav-primary{
         margin-top: 1em;
-    }
+    } */
     .nav-items .nav-item{
         margin: 0 0 1em;
     }
@@ -362,7 +362,7 @@ width: 100%;
 
     .visible{
         display: block;
-        transition: right .6s ease;
+        transition: right .3s ease;
         right: 0;
         
     }
