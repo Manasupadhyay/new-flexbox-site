@@ -12,5 +12,7 @@ hamburger.addEventListener('click', function(e){
 nav.addEventListener('click' ,function(e){
     nav.classList.remove('visible');
     hamburger.classList.remove('cross');
+    header.classList.toggle('overflow');
+
 })
 
