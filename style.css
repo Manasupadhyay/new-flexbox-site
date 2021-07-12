@@ -408,7 +408,7 @@ width: 100%;
         margin-left:0;
     } */
     .section-one-align .col{
-        max-width: 332px;
+        max-width: 400px;
         /* width: 100%;*/
         margin: 0 auto; 
         flex: 1 1 50%;
