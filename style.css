@@ -148,17 +148,19 @@ nav{
 
 .section-one-align{
     display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     padding: 5em 0;
     text-align: center;
 }
 
 .section-one-align .col{
     max-width: 300px;
-    flex: 1 1 auto;
+    flex: 1 1 400px;
 }
-.col + .col{
+/* .col + .col{
     margin-left: 10em;
-}
+} */
 
 .section-one h2{
     font-size: 3rem;
@@ -287,7 +289,7 @@ width: 100%;
 }
 
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1014px) {
     
     header{
         padding: 1em 0;
@@ -406,7 +408,7 @@ width: 100%;
         margin-left:0;
     } */
     .section-one-align .col{
-        max-width: 300px;
+        max-width: 332px;
         /* width: 100%;*/
         margin: 0 auto; 
         flex: 1 1 50%;
