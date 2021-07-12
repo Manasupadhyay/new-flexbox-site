@@ -151,6 +151,11 @@ nav{
     padding: 5em 0;
     text-align: center;
 }
+
+.section-one-align .col{
+    max-width: 300px;
+    flex: 1 1 auto;
+}
 .col + .col{
     margin-left: 10em;
 }
