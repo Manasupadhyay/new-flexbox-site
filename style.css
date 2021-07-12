@@ -413,6 +413,9 @@ width: 100%;
         font-size: 5rem;
         
     }
+    .hero-content{
+        padding-left: 0;
+    }
     /* .hero-content p,
     .hero-content a{
         margin-left: 1rem;
